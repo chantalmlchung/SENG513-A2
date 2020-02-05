@@ -1,1 +1,1 @@
-# CPSC559-A2
+## SENG 513 - A2 - Calculator
