@@ -1,6 +1,4 @@
 $(document).ready(() => {
-	let result = 0;
-	let prev_entry = 0;
 	let cur_entry = 0;
 	let clear_prev = true;
 	$('.current').html(cur_entry);
