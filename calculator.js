@@ -14,7 +14,13 @@ $(document).ready(() => {
 	$('.back').on('click', function(evt) {
 		let button_pressed = $(this).html();
 		cur_entry = $('.current').html();
-		$('.current').html(cur_entry.slice(0, -1));
+		if (cur_entry === "Err") {
+			$('.current').html('0')
+			clear_prev = true
+		}
+		else{
+			$('.current').html(cur_entry.slice(0, -1));
+		}
 	});
 	$('.num_button').on('click', function(evt) {
 		let button_pressed = $(this).html();
