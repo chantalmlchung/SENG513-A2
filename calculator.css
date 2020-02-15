@@ -5,17 +5,18 @@
 	font: bold 14px Arial, sans-serif;
 }
 
+/* Style calculator body */
 #calculator {
 	width: 600px;
 	height: auto;
 	margin: 100px auto;
 	padding: 20px 20px 9px;
-	background: #9dd2ea;
-	background: linear-gradient(#9dd2ea, #8bceec);
+	background: #f8f4e3;
 	border-radius: 3px;
-	box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 4px #969389, 0px 10px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* Style screen */
 .top .screen {
 	height: 100px;
 	width: 100%;
@@ -47,6 +48,7 @@
 	letter-spacing: 1px;
 }
 
+/* Style buttons */
 .key-row {
 	display: flex;
 	justify-content: space-around;
@@ -58,11 +60,11 @@
 	cursor: pointer;
 	width: 25%;
 	height: 75px;
-	background: white;
+	background: #c4d7f2;
 	border-radius: 3px;
-	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 4px #8591a3;
 	margin: 0 2px 11px 0;
-	color: #888;
+	color: black;
 	line-height: 36px;
 	text-align: center;
 	transition: all 0.2s ease;
@@ -70,37 +72,44 @@
 }
 
 .keys button.operator {
-	background: #FFF0F5;
+	background: #afdedc;
+	box-shadow: 0px 4px #779795;
 }
 
 .keys button.eval {
-	background: #f1ff92;
-	box-shadow: 0px 4px #9da853;
-	color: #888e5f;
+	background: #91a8a4;
+	box-shadow: 0px 4px #62726f;
+	color: white;
 }
 
 .keys button.clear, .keys button.back {
-	background: #ff9fa8;
-	box-shadow: 0px 4px #ff7c87;
+	background: #776871;
+	box-shadow: 0px 4px #53494f;
 	color: white;
 }
 
 /* Add hover effects */
 .keys button:hover {
-	background: #9c89f6;
-	box-shadow: 0px 4px #6b54d3;
+	background: #9ac0f5;
+	box-shadow: 0px 4px #6b85aa;
 	color: white;
 }
 
+.keys button.operator:hover {
+	background: #92e2de;
+	box-shadow: 0px 4px #629795;
+	color: #ffffff;
+}
+
 .keys button.eval:hover {
-	background: #abb850;
-	box-shadow: 0px 4px #717a33;
+	background: #7baca3;
+	box-shadow: 0px 4px #50706a;
 	color: #ffffff;
 }
 
 .keys button.clear:hover, .keys button.back:hover {
-	background: #f68991;
-	box-shadow: 0px 4px #d3545d;
+	background: #7a5b6e;
+	box-shadow: 0px 4px #533e4b;
 	color: white;
 }
 
